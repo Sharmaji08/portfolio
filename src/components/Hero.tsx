@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       id="home"
       className="min-h-screen flex items-center pt-16 bg-gradient-to-br from-white to-light-card dark:from-dark-bg dark:to-dark-card"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 space-y-6 animate-slideUp">
             <p className="text-accent-pink dark:text-accent-cyan font-medium">Hello, I'm</p>
@@ -50,8 +50,7 @@ const Hero: React.FC = () => {
           
           <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
             <div className="relative">
-              <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-accent-pink/20 dark:bg-accent-cyan/20 
-                absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-float"></div>
+             
               <img 
                 src="https://i.postimg.cc/wBS2Mgcp/Whats-App-Image-2025-06-02-at-16-19-33-cf3b26cd.jpg" 
                 alt="Rahul Sharma" 
