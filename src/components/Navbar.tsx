@@ -2,6 +2,16 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
+const handleScrollToContact = () => {
+  const section = document.getElementById('Contact');
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+    console.log('Scroll triggered');
+
+  }
+};
+
+
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -65,6 +75,7 @@ const Navbar: React.FC = () => {
             <ThemeToggle />
             
             <button
+            onClick={handleScrollToContact}
               className="hidden lg:block px-4 py-2 rounded-full bg-primary-600 text-white
                 hover:bg-primary-700 transition-all duration-300 font-medium text-sm"
             >
@@ -103,6 +114,7 @@ const Navbar: React.FC = () => {
               ))}
               <li>
                 <button
+                onClick={handleScrollToContact}
                   className="w-full px-4 py-3 rounded-lg text-lg font-medium text-white
                     bg-primary-600 hover:bg-primary-700 transition-colors duration-300"
                 >

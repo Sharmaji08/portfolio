@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             <div className="relative">
              
               <img 
-                src="https://i.postimg.cc/wBS2Mgcp/Whats-App-Image-2025-06-02-at-16-19-33-cf3b26cd.jpg" 
+                src="/profile_pic.jpg" 
                 alt="Rahul Sharma" 
                 className="w-90 h-150 sm:w-72 sm:h-72 object-cover rounded-rectangle-full border-4 border-white dark:border-dark-bg 
                   shadow-xl relative z-10"
