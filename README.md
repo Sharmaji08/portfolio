@@ -31,11 +31,21 @@ This is a modern, responsive, and fully customizable portfolio built using **Rea
 
 ---
 
-## 📸 Preview
-
-![Portfolio Preview](https://portfolio-sigma-eosin-59.vercel.app/preview.jpg) <!-- optional preview image -->
 
 ---
 
-## 📂 Folder Structure (Basic)
+## 🛠️ Setup Instructions
 
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
+
+# Install dependencies
+npm install
+
+# Run in development
+npm run dev
+
+# Build for production
+npm run build
