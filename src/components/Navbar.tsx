@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = ['Home', 'About', 'Skills', 'Projects', 'Testimonials', 'Pricing', 'Contact'];
+  const navItems = ['Home', 'About', 'Skills', 'Projects', 'Testimonials', 'Contact'];
 
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);

@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
               Rahul Sharma
             </h1>
             <h2 className="text-2xl sm:text-3xl text-gray-700 dark:text-gray-300 font-medium">
-               Full Stack Developer & Front-end Expert | Freelencer
+               Full Stack Developer & Front-end Expert 
             </h2>
             <p className="text-light-muted dark:text-dark-muted max-w-lg">
               I create beautiful, responsive web experiences using cutting-edge technologies. Specialized in React,

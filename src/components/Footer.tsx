@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   
-  const quickLinks = ['Home', 'About', 'Skills', 'Projects', 'Testimonials',  'Pricing', 'Contact'];
+  const quickLinks = ['Home', 'About', 'Skills', 'Projects', 'Testimonials',  'Contact'];
   
   return (
     <footer className="bg-white dark:bg-dark-bg border-t border-gray-200 dark:border-gray-800">
