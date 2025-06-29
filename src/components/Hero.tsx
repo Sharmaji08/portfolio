@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                 View Projects <ArrowRight className="w-4 h-4" />
               </button>
               <a
-                href="https://drive.google.com/file/d/1XXsPzK_XgI07FcHM_zqJCA1k51PuR8s-/view"
+                href="https://drive.google.com/file/d/1p4hkSYlLH0ZjzszksfnRIgdx7K2y0Hsk/view"
                      target="_blank"
                       rel="noopener noreferrer"
                  className="px-6 py-3 rounded-full border-2 border-accent-pink dark:border-accent-cyan text-light-text dark:text-dark-text font-medium transition-all duration-300 hover:bg-light-card dark:hover:bg-dark-card"
